@@ -21,7 +21,7 @@ interface PayPalOrder {
 }
 
 interface APIKeyCredentials {
-  apiKey: string;
+  apiKey: string | undefined;
 }
 
 interface ClientIDSecretCredentials {
@@ -30,7 +30,7 @@ interface ClientIDSecretCredentials {
 }
 
 type ProcessorConfig<T> = T & {
-  accountId: string;
+  accountId: string | undefined;
 };
 
 interface IProcessorRequest<T> {

@@ -9,7 +9,9 @@
     "target": "ES2020",
     "strictNullChecks": true,
     "allowSyntheticDefaultImports": true,
-    "moduleResolution": "Node"
+    "moduleResolution": "Node",
+    "noImplicitAny": false,
+    "sourceMap": true
   },
   "typeAcquisition": {
     "enable": true,
